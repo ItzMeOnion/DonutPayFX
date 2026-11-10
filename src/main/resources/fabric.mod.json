@@ -1,0 +1,20 @@
+
+{
+  "schemaVersion": 1,
+  "id": "donutpayfx",
+  "version": "${version}",
+  "name": "DonutPayFX",
+  "description": "Epic payment alerts and visual effects for DonutSMP.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.donutpayfx.DonutPayFXClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
